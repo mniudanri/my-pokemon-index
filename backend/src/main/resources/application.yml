@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:8080}
+spring:
+  profiles:
+    active: local-insecure
+app:
+  pokeapi:
+    base-url: ${POKEAPI_BASE_URL:https://pokeapi.co/api/v2}
+  cache:
+    ttl: ${CACHE_TTL:15m}
+  llm:
+    model: ${KENARI_MODEL}
+    api-key: ${KENARI_API_KEY}
+    chat-url: ${KENARI_CHAT_URL}
+  frontend-origin: ${FRONTEND_ORIGIN:http://localhost:5173}
