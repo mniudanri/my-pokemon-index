@@ -1,0 +1,10 @@
+:root { font-family: system-ui, sans-serif; line-height: 1.5; color: #202432; }
+body { margin: 0; background: #f5f7fb; }
+header, main { padding: 1rem max(1rem, calc((100vw - 960px) / 2)); }
+header { background: white; border-bottom: 1px solid #ddd; }
+a { color: #2655a6; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.card { display: grid; justify-items: center; padding: 1rem; background: white; border-radius: 12px; text-transform: capitalize; }
+.card img { width: 96px; height: 96px; object-fit: contain; }
+button, input, select { font: inherit; padding: .4rem; }
+nav { margin: 1rem 0; }
