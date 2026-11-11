@@ -1,0 +1,6 @@
+.idea/
+.mvn/
+backend/target/
+backend/.idea
+backend/.mvn
+frontend/node_modules/
